@@ -14,7 +14,7 @@ function App() {
   const [nameAccepted, setNameAccepted] = useState(true);
 
   useEffect(() => {
-    const ws = new WebSocket('ws://chat-server-5jdx.onrender.com');
+    const ws = new WebSocket('wss://chat-server-5jdx.onrender.com');
 
     ws.onopen = () => {
       console.log('Connected to WebSocket server');
