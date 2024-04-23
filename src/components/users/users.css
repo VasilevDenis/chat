@@ -1,0 +1,19 @@
+.users {
+    display: flex;
+    background-color: #23272F;
+    color: #F6F7F9;
+    flex-direction: column;
+    width: 13%;
+    padding: 20px;
+    border-radius: 24px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    border: #343A45 solid 1px;
+    flex: 1;
+    line-height: 30px;
+}

@@ -1,0 +1,56 @@
+.messages {
+    display: flex;
+    flex-direction: column;
+    background-color: #23272F;
+    color: #F6F7F9;
+    width: 80%;
+    padding: 20px;
+    border-radius: 24px;
+    gap: 15px;
+}
+
+.messages-list {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    border: #343A45 solid 1px;
+    flex: 1;
+}
+
+.date {
+    color: #737882;
+}
+
+.message-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: #343A45 solid 1px;
+    background-color: #343A45;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.right {
+    align-self: flex-end;
+}
+
+.left {
+    align-self: flex-start;
+}
+
+.message-text {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    word-wrap: break-word; 
+}
+
+.user-date {
+    background-color: #F6F7F9;
+    border-radius: 4px;
+    padding: 3px;
+    margin-bottom: 5px;
+}

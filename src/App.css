@@ -1,0 +1,12 @@
+.app {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  height: calc(100vh - 20px);
+  max-height: calc(100vh - 20px); 
+  overflow-y: hidden;
+}
+
+.header {
+  text-align: center;
+}

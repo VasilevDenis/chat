@@ -1,0 +1,32 @@
+.user-form {
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #23272F;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+}
+
+.input-user  {
+    background-color: #343A45;
+    color: #F6F7F9;
+    height: 20px;
+    
+}
+
+.button-user {
+    height: 30px;
+    background-color: #343A45;
+    color: #F6F7F9;
+    border-radius: 15px;
+}
+
+.header {
+    color: #F6F7F9;
+}
